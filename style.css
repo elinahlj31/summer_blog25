@@ -13,7 +13,7 @@ body{
 }
 
 .ListStyle {
-    color:rgba(122, 144, 243, 0.945)
+    color:#e03577f1
 }
 
 .LifeStyle {
@@ -22,9 +22,9 @@ body{
 
 #header {
     background-image: url("https://png.pngtree.com/png-clipart/20220313/original/pngtree-spring-cherry-blossom-branch-petal-season-png-image_7429551.png");
-    background-size: 72%;
+    background-size: 60%;
     background-position: -30%;
-    height: 12rem;
+    height: 6rem;
     border-radius: 0;
 
     display: flex;
