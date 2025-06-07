@@ -7,6 +7,13 @@ p{
     font-size: 1.3rem
 }
 
+h1{
+    font-size: 3.1rem
+}
+
+h2{
+    font-size: 2rem;
+}
 body{
     background-color: rgb(223, 250, 236);
     margin:0;
@@ -56,7 +63,7 @@ body{
 }
 
 .nav-links li a:hover {
-    background-color:rgb(237, 255, 237)
+    background-color:rgb(221, 250, 221)
 }
 
 .title {
