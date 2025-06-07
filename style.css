@@ -1,6 +1,6 @@
 html{
     font-family: 'Times New Roman', Times, serif;
-    color: rgba(13, 30, 85, 0.753);
+    color: rgba(20, 37, 94, 0.753);
 }
 
 p{
@@ -8,12 +8,12 @@ p{
 }
 
 body{
-    background-color: rgb(238, 250, 244);
+    background-color: rgb(223, 250, 236);
     margin:0;
 }
 
 .ListStyle {
-    color:#e03577f1
+    color:#d85b8bf1
 }
 
 .LifeStyle {
@@ -24,7 +24,7 @@ body{
     background-image: url("https://png.pngtree.com/png-clipart/20220313/original/pngtree-spring-cherry-blossom-branch-petal-season-png-image_7429551.png");
     background-size: 60%;
     background-position: -30%;
-    height: 6rem;
+    height: 9.2rem;
     border-radius: 0;
 
     display: flex;
@@ -32,4 +32,58 @@ body{
     flex-direction: column;
     padding-bottom: 5%;
 
+}
+
+.navbar {
+    background-color:rgb(252, 229, 233);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:rgb(214, 89, 131);
+    font-size: 1.1rem;
+    transition: 0.3s;
+    padding: 0.5em 1.0em;
+    border-radius: 0.5em;
+}
+
+.nav-links li a:hover {
+    background-color:rgb(237, 255, 237)
+}
+
+.title {
+    text-align: center;
+    padding: 1em;
+}
+
+.current {
+    text-decoration: underline dotted rgb(252, 179, 207).3em;
+}
+
+.accordion-header {
+    width: 100%;
+    background-color: rgb(252, 229, 233);
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1rem;
+    color: rgb(37, 67, 133);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-header:hover {
+    background-color:rgb(228, 253, 239);
 }
