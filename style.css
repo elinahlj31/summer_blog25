@@ -13,7 +13,12 @@ h1{
 
 h2{
     font-size: 2rem;
+
 }
+h4{
+    font-size: 1.25rem;
+}
+
 body{
     background-color: rgb(223, 250, 236);
     margin:0;
@@ -56,14 +61,14 @@ body{
 .nav-links li a {
     text-decoration: none;
     color:rgb(214, 89, 131);
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     transition: 0.3s;
     padding: 0.5em 1.0em;
     border-radius: 0.5em;
 }
 
 .nav-links li a:hover {
-    background-color:rgb(221, 250, 221)
+    background-color:rgb(238, 255, 238)
 }
 
 .title {
@@ -93,4 +98,49 @@ body{
 
 .accordion-header:hover {
     background-color:rgb(228, 253, 239);
+}
+
+.hidden {
+    display: none !important;
+}
+
+.blog-entry {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding-right: 2%;
+    margin-bottom: 2em;
+}
+
+.blog-entry img {
+    width: 50%;
+    border-radius: 0 1.5em 1.5em 0;
+}
+
+#enter-password {
+    text-align: center;
+}
+
+#enter-password input {
+    font-size: 1.5rem;
+    border-radius: 0.5em;
+    border: 0;
+    padding: 0.2em;
+    width: 40%;
+    background-color:rgb(248, 222, 226)
+}
+
+#enter-password button {
+    font-size: 1.3em;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 7%;
+    border: 0;
+    background-color:rgb(212, 137, 150)
+}
+
+#password-field {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
