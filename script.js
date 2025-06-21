@@ -18,5 +18,25 @@ document.querySelectorAll('.accordion-header').forEach(function (button){
     button.addEventListener('click', function() {
         let content = this.nextElementSibling;
        content.style.display = (content.style.display === 'block') ? 'none' : 'block';
-    });
-});
+    }); 
+});          
+
+const PASSWORD = "incorrect";
+
+function validatePass(){
+    const login = document.getElementById('password');
+    const msg = document.getElementById('message');
+    const hiddenEntries = document.querySelectorAll('.hidden');
+    
+
+    if (login.value === PASSWORD) {
+        message.textContent= "Password confirmed. See hidden entries below";
+        hiddenEntries.forEach(function(entry) {entry.style.display = 'flex';});
+    } else {
+        message.textContent = 'Password is incorrect. Try Again';
+        hiddenEntries.forEach(function(entry) {entry.style.display = 'none';});
+    }
+
+    login.value = '';
+}   
+
